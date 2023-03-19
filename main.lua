@@ -1,5 +1,5 @@
 --[[
-    Lighter | Version 0.1.0.0
+    Lighter | Version 0.1.4.1
     Lua Obfuscation Service
     By: _G.HunDread#0176
 
@@ -78,7 +78,7 @@ if not settings["encodeStrings"] then
             end
             return encoded
           end
-    output = [[local _I_llIlIlIIl = ']]..encode(output)..[[' function LIliLL(a)local b=""local c=5;while c<=#a do local d=a:sub(c,c)local e=tonumber(a:sub(c+1,c+3))if d=="L"then b=b..string.char(e+32)elseif d=="U"then b=b..string.char(e)else b=b..string.char(e)end;c=c+4 end;return b end local w = function(a) return loadstring(a) end local x = w local y = x local z = y local a = z local b = a local c = b c(LIliLL(_I_llIlIlIIl))()]]
+    output = [=[local _I_llIlIlIIl = ']=]..encode(output)..[=[' local pokemon = _I_llIlIlIIl function LIliLL(a)local b=""local c=5;while c<=#a do local d=a:sub(c,c)local e=tonumber(a:sub(c+1,c+3))if d=="L"then b=b..string.char(e+32)elseif d=="U"then b=b..string.char(e)else b=b..string.char(e)end;c=c+4 end;return b end local w = function(a) return loadstring(a) end local x = w local y = x local z = y local a = z local b = a local c = b local d = c local fire = '23094809238409238402384098235017230572345723490572309857389044578093247589347509823758092769802347609845680934760983456897569805609734609734569734906734906734967'..pokemon..'WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_WIP_' local e = d local f = e local v = {} local notTrue = true local g = f local PcallNotCall, NotCallPcall = v, notTrue local h = g v = {'H9g8GG878G87g8G8ugjg8YUT68uytg87YITg8u67tguYJTguky6tgT6I8UYTg86iuytfg76IUYRF7i6uytg8i6UYT', 'UITG8iutgIGUiuKTGiutghIUTgiktuUKYJHGuykjhGBUYJHGBu8ykjhgUYGBuiyjhg', 'uYHIOuyghI7LUho97iuKGH8oiyukhgbUKYJHgbiLUHKTGJHIlukgjHOIukgj', 'OUiktg9IUKYJHiukjhILUjkhILJKhbilujkHBILU';} local i = h local jk = i local l = jk l(LIliLL(pokemon))()]=]
 end
 
 if settings["SmallerOutput"] then
@@ -107,7 +107,7 @@ else
 end
 local Monkey = n
 if settings["protection"] then
-    output = output..[[local fuck = 'l' local you = 'oa' local finger = 'ring' local ni = 'dst' local fenv = getfenv and getfenv() or _ENV local mario = error local lILIli = function(s) return error(s) end local kart = print if fenv == kart then lILIli() end if loadstring == mario then lILIli() end local lol = 'local' if loadstring == kart then lILIli() end]]
+    output = [=[local fuck = 'l' local you = 'oa' local finger = 'ring' local ni = 'dst' local fenv = getfenv and getfenv() or _ENV local mario = error local lILIli = function(s) return error(s) end local kart = print if fenv == kart then lILIli() end if loadstring == mario then lILIli() end local lol = 'local' if loadstring == kart then lILIli() end local mariosmash = loadstring if mariosmash == kart then return end if mariosmash == error then error() end;]=] .. output
 end
 local knitTight = 'unD'
 if Monkey ~= 'H'..knitTight..'read' then
@@ -115,9 +115,8 @@ if Monkey ~= 'H'..knitTight..'read' then
 end
 
 -- Finishers
-output = [[
--- Protected by Lighter v0.1.0.0 | HunDread on top
-]] .. output
+output = [=[if WM == '\80\114\111\116\101\99\116\101\100\32\98\121\32\76\105\103\104\116\101\114\32\124\32\104\116\116\112\115\58\47\47\100\105\115\99\111\114\100\46\103\103\47\54\71\56\122\106\102\54\98\80\88' then else error() end;]=]..output
+output = [[local WM='Protected by Lighter | https://discord.gg/6G8zjf6bPX']] .. output
 Thread = io.open("output.lua", "w")
 Thread:write(output)
 Thread:close()
